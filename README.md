@@ -1,6 +1,6 @@
 # odev-1-Furkan Çetinalp
 ### WeatherConditionInTurkey 
-Programa otomatik atanan 3 şehir ve bilgileri var:
+Programa otomatik atanan 3 şehir ve bilgileri vardır:
 
 1) Şehir adı (name)
 2) Gün (date)
