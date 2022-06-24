@@ -8,7 +8,9 @@ Programa otomatik atanan 3 şehir ve bilgileri vardır:
 4) Sonuç (result)
 5) Şehir id değeri (id) => veritabanından otomatik artırılmaktadır.
 
-## Bu program için github'a yüklediğim WeatherConditionInTurkeyCollection adlı koleksiyon ile Postman platformunda kullanılma imkanı vardır.
+## Bu program için github'a yüklediğim WeatherConditionInTurkeyCollection.json adlı koleksiyon ile Postman platformunda kullanılma imkanı vardır.
+
+## PostmanTestApiCollection ise ödevde bahsedilen test Request'lerden oluşan bir koleksiyondur.
 
 ### Projenin Çalıştırılmasına Dair Ekran Fotoğrafları
 
