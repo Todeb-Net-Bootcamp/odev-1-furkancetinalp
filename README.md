@@ -1,4 +1,4 @@
-# odev-1-furkancetinalp
+# odev-1-Furkan Çetinalp
 ### WeatherConditionInTurkey 
 Programa otomatik atanan 3 şehir ve bilgileri var:
 
