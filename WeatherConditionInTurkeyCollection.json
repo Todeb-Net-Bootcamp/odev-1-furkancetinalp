@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "bf0766c6-294d-44b0-a1c9-fad762b4f102",
+		"name": "WeatherConditionInTurkeyCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "AllData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:5001/api/WeatherConditionInTurkey"
+			},
+			"response": []
+		},
+		{
+			"name": "CityById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://localhost:5001/api/WeatherConditionInTurkey/3"
+			},
+			"response": []
+		},
+		{
+			"name": "City",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "default"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Ankara\",\r\n  \"date\": \"2022-06-24\",\r\n  \"temperatureC\": 18,\r\n  \"summary\": \"Rainy\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://localhost:5001/api/WeatherConditionInTurkey/2"
+			},
+			"response": []
+		},
+		{
+			"name": "City",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "https://localhost:5001/api/WeatherConditionInTurkey/3"
+			},
+			"response": []
+		}
+	]
+}
