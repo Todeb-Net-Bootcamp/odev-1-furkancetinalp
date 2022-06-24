@@ -11,6 +11,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using ApiCreate.DbOperations;
 
 namespace ApiCreate
 {
@@ -32,6 +34,7 @@ namespace ApiCreate
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ApiCreate", Version = "v1" });
             });
+            services.AddDbContext<WeatherForecastDbContext>(options => options.UseInMemoryDatabase(databaseName: "WeatherDB"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
