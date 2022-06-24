@@ -10,7 +10,7 @@ Programa otomatik atanan 3 şehir ve bilgileri vardır:
 
 ## Bu program için github'a yüklediğim WeatherConditionInTurkeyCollection.json adlı koleksiyon ile Postman platformunda kullanılma imkanı vardır.
 
-## PostmanTestApiCollection ise ödevde bahsedilen test Request'lerden oluşan bir koleksiyondur.
+## PostmanTestApiCollection.json ise ödevde bahsedilen test Request'lerden oluşan bir koleksiyondur.
 
 ### Projenin Çalıştırılmasına Dair Ekran Fotoğrafları
 
